@@ -11,6 +11,8 @@
 		7BE7A21125D9498F00CF1C3F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BE7A21025D9498F00CF1C3F /* ContentView.swift */; };
 		7BE7A21325D9499100CF1C3F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7BE7A21225D9499100CF1C3F /* Assets.xcassets */; };
 		7BE7A21625D9499100CF1C3F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7BE7A21525D9499100CF1C3F /* Preview Assets.xcassets */; };
+		7BE7A21F25D94B7400CF1C3F /* Habits.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BE7A21E25D94B7400CF1C3F /* Habits.swift */; };
+		7BE7A22925D9533B00CF1C3F /* HabitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BE7A22825D9533B00CF1C3F /* HabitView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +22,8 @@
 		7BE7A21225D9499100CF1C3F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7BE7A21525D9499100CF1C3F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		7BE7A21725D9499100CF1C3F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7BE7A21E25D94B7400CF1C3F /* Habits.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Habits.swift; sourceTree = "<group>"; };
+		7BE7A22825D9533B00CF1C3F /* HabitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,8 @@
 			children = (
 				7BE7A20E25D9498F00CF1C3F /* CheckHabitsApp.swift */,
 				7BE7A21025D9498F00CF1C3F /* ContentView.swift */,
+				7BE7A22825D9533B00CF1C3F /* HabitView.swift */,
+				7BE7A21E25D94B7400CF1C3F /* Habits.swift */,
 				7BE7A21225D9499100CF1C3F /* Assets.xcassets */,
 				7BE7A21725D9499100CF1C3F /* Info.plist */,
 				7BE7A21425D9499100CF1C3F /* Preview Content */,
@@ -140,6 +146,8 @@
 			files = (
 				7BE7A21125D9498F00CF1C3F /* ContentView.swift in Sources */,
 				7BE7A20F25D9498F00CF1C3F /* CheckHabitsApp.swift in Sources */,
+				7BE7A21F25D94B7400CF1C3F /* Habits.swift in Sources */,
+				7BE7A22925D9533B00CF1C3F /* HabitView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
