@@ -21,6 +21,7 @@ struct ContentView: View {
                                 Text(item.title)
                                     .font(.headline)
                                 Text(item.description)
+                                Text(item.notes)
                             }
                             Spacer()
                         }

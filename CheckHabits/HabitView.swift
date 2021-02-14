@@ -16,7 +16,6 @@ struct HabitView: View {
     @State private var type = "Personal Notes"
     @State private var description = ""
     @State private var notes = ""
-    @State private var showingAlert = false
     
     var body: some View {
         NavigationView {
@@ -28,8 +27,11 @@ struct HabitView: View {
                             Text($0)
                         }
                     }
+                    TextField("Description", text: $description)
+                        .keyboardType(.alphabet)
                     TextField("Notes", text: $notes)
                         .keyboardType(.alphabet)
+                    
                 }
                 .navigationBarTitle("Add new expense")
                 .navigationBarItems(trailing: Button("Save") {
